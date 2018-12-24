@@ -1,0 +1,80 @@
+#bars {
+	opacity: 1;
+}
+
+#exit {
+	opacity: 0;
+}
+
+#layer1 {
+	z-index: 1;
+	position: absolute;
+}
+
+#layer2 {
+	z-index: 0;
+	position: absolute;
+}
+
+#block {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+}
+
+#btnRight {
+	position: fixed;
+	top: 50%;
+	left: 100%;
+	margin-top: -50px;
+	margin-left: -120px;
+}
+
+#btnLeft {
+	position: fixed;
+	top: 50%;
+	right: 100%;
+	margin-top: -50px;
+	margin-right: -120px;
+}
+
+body {
+	background-color: black;
+}
+
+#reset {
+	position: fixed;
+	top: 100%;
+	left: 50%;
+	height: 60px;
+	width: 120px;
+	margin-top: -100px;
+	margin-left: -60px;
+}
+
+#alien {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	opacity: 0;
+}
+
+#right:hover {
+	content: url("rightHover.png");
+}
+
+#left:hover {
+	content: url("leftHover.png");
+}
+
+#resetImg:hover {
+	content: url("resetHover.png");
+}

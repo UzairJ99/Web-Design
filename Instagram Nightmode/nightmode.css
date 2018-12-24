@@ -1,0 +1,178 @@
+body {
+	height: 100%;
+	background-color: rgb(33, 33, 33);
+}
+
+.container {
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.jumbotron{
+	margin-top: 80px;
+	color: white;
+	background-color: transparent;
+	box-shadow:0px 2px 5px rgb(26,26,26);  
+	padding-bottom: 30px;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar-inverse {
+	background: black;
+	min-height: 70px;
+	max-height: 70px;
+	padding-top: 2px;
+}
+
+.fa-instagram {
+	min-width: 30px;
+}
+
+.navbar-brand {
+	font-size: 2em;
+	font-family: 'Lobster Two', cursive;
+}
+
+.input-group {
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 1.5%;
+	opacity: 0.4;
+}
+
+#loginPanel {
+	display: inline;
+	float: right;
+	margin-top: -3.5%;
+}
+
+img {
+	width: 144px;
+	height: 144px;
+	float: left;
+}
+
+.accountInfo {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: -15px;
+}
+
+#accName {
+	margin-left: 200px;
+	margin-top: -20px;
+	margin-bottom: 15px;
+}
+
+#bio {
+	margin-left: 200px;
+	margin-bottom: 0;
+	font-weight: lighter;
+}
+
+#name {
+	margin-left: 200px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+#website {
+	margin-left: 200px;
+}
+
+#btnFollow {
+	width: 144px;
+	padding-left: 5px;
+	background-color: #364c70;
+	border-color: #364c70;
+}
+
+#btnLogin {
+	background-color: #364c70;
+	border-color: #364c70;
+}
+
+#btnSignup {
+	background-color: #111111;
+	border-color: #111111;
+	color: white;
+}
+
+.panel-body {
+	background-color: rgb(33, 33, 33);
+	border-color: rgb(33, 33, 33);
+	color: white;
+	border: 2px solid black;
+}
+
+#postsPanel {
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+#btnPosts {
+	background-color: rgb(33, 33, 33);
+	color: white;
+	line-height: 2;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-radius: 0;
+}
+
+#btnTagged {
+	background-color: rgb(33, 33, 33);
+	color: white;
+	line-height: 2;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-radius: 0;
+}
+
+.selected {
+	border-top-width: 3px;
+	border-top-color: white;
+	border-radius: 0;
+}
+
+.unselected {
+	border-top-width: 3px;
+	border-top-color: rgb(33, 33, 33);
+	border-radius: 0;
+}
+
+.follow {
+	content: " Follow";
+}
+
+.unfollow {
+	content: " Unfollow";
+}
+
+.img-thumbnail {
+	width: 100%;
+	height: auto;
+	background: #303030;
+	border-color: #303030;
+	margin-top: 10px;
+	margin-right: 2.5px;
+	margin-left: 2.5px;
+	padding: 0 0;
+}
+
+li {
+	min-width: 60px;
+	margin-left: 55px;
+	margin-right: 10px;
+}
+
+.nav-pills {
+	height: 30px;
+}
+
+.badge {
+	background: transparent;
+}
