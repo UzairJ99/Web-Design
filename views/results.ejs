@@ -1,0 +1,13 @@
+<h1>Results</h1>
+<!-- data["Search"] is an array; loop through the array -->
+<ul>
+<% for (var i = 0; i < data["Search"].length; i++) { %>
+    <!-- list each title from each search array -->
+    <li>
+        <strong><%= data["Search"][i]["Title"] %></strong> - <%= data["Search"][i]["Year"] %>
+    </li>
+<% } %>
+</ul>
+
+<!-- back button -->
+<a href="/">Back</a>
