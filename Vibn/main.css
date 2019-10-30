@@ -1,0 +1,111 @@
+body
+{
+	overflow-x: hidden;
+}
+
+.collapse .navbar-collapse
+{
+	float: right;
+}
+
+.navbar-header
+{
+	width: 100%; 
+	text-align: center;
+}
+
+.navbar-light .navbar-toggler
+{
+	float: left;
+}
+
+.navbar-brand
+{
+	margin: 0;
+}
+
+.navbar-toggler:focus
+{
+	outline: none;
+}
+
+#shopContainer
+{
+	width: 100%;
+	text-align: center;
+}
+
+#backdropLogo
+{
+	width: 100%;
+	margin-left: 25px;
+	text-align: center;
+}
+
+.vibnBtn
+{
+	color: white;
+	background-color: #262626;
+	border: 2px solid white;
+	height: 3em;
+	padding-left: 70px;
+	padding-right: 70px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+
+.vibnBtn:hover
+{
+	transform: scale(1.05);
+}
+
+#mainBackdrop
+{
+	background-color: #262626;
+}
+
+.container
+{
+	padding-top: 70px;
+	align-content: center;
+	padding-bottom: 10px;
+}
+
+.containerTextOnly
+{
+	padding: 70px;
+}
+
+.w-100
+{
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+
+.w-100:hover
+{
+	transform: scale(1.05);
+}
+
+.headingText
+{
+	color: white;
+}
+
+.smallFont
+{
+	color: white;
+}
+
+#blackBackdrop
+{
+	background-color: #262626;
+	align-content: center;
+	text-align: center;
+	padding: 70px;
+}
+
+#submitBtn
+{
+	width: 100%;
+}
