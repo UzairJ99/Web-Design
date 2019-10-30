@@ -26,7 +26,7 @@ body
 
 .navbar-toggler:focus
 {
-	outline: none;
+	outline: none; /* allows for better user experience */
 }
 
 #shopContainer
@@ -50,18 +50,19 @@ body
 	height: 3em;
 	padding-left: 70px;
 	padding-right: 70px;
-	cursor: pointer;
-	transition: all 0.1s linear;
+	cursor: pointer; /* allows for better user experience */
+	transition: all 0.1s linear; /*hover animation */
 }
 
 .vibnBtn:hover
 {
-	transform: scale(1.05);
+	transform: scale(1.05); /*hover animation */
 }
 
 #mainBackdrop
 {
 	background-color: #262626;
+	align-content: center;
 }
 
 .container
@@ -78,13 +79,13 @@ body
 
 .w-100
 {
-	cursor: pointer;
-	transition: all 0.1s linear;
+	cursor: pointer; /* allows for better user experience */
+	transition: all 0.1s linear; /*hover animation */
 }
 
 .w-100:hover
 {
-	transform: scale(1.05);
+	transform: scale(1.05); /*hover animation */
 }
 
 .headingText
